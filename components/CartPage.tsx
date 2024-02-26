@@ -38,7 +38,7 @@ function CartPage({
         </button>
       )}
       {openCart && (
-        <div className="fixed top-20 right-0 w-screen h-screen lg:right-10 lg:w-[24rem] lg:h-[80vh] lg:min-h-[20rem] lg:rounded-2xl max-h-[100rem] overflow-hidden bg-zinc-200 z-50 shadow-xl">
+        <div className="fixed top-20 z-50 right-0 w-screen h-[80vh] lg:right-10 lg:w-[24rem] lg:h-[80vh] lg:min-h-[20rem] lg:rounded-2xl max-h-[100rem] overflow-hidden bg-zinc-200 shadow-xl">
           <div className="absolute w-full pt-5 text-3xl font-thin lg:pt-6 lg:text-2xl text-center right-0 left-0 mx-auto">
             List Ordered
           </div>
@@ -48,7 +48,7 @@ function CartPage({
           >
             X
           </button>
-          <div className="absolute bottom-20 lg:bottom-0 w-full h-24 flex flex-row-reverse border-t-4 border-zinc-700 bg-zinc-200 z-40">
+          <div className="absolute bottom-0 w-full h-24 flex flex-row-reverse border-t-4 border-zinc-700 bg-zinc-200 z-40">
             <div className="h-full flex flex-col justify-center pr-8">
               <button className="relative px-2 py-2 bg-blue-400 text-white text-2xl font-thin cursor-not-allowed group">
                 Proceed
