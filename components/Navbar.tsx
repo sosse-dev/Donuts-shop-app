@@ -97,7 +97,9 @@ function Navbar() {
       <Link
         href="/"
         className="w-12 h-12 my-auto ml-4 rounded-full grid place-items-center bg-white"
-      ></Link>
+      >
+        <Image src="/favicon.png" width={100} height={100} alt="logo" />
+      </Link>
       <div className="hidden h-full md:flex font-font1">
         <div className="h-full grid place-items-center text-3xl text-white hover:text-slate-800 hover:bg-slate-300 cursor-pointer px-3 ml-36">
           <Link href="/">Main</Link>
@@ -123,23 +125,27 @@ function Navbar() {
           Login
         </Link>
       </div>
-      <div className="h-16 w-16 my-auto mr-3 md:hidden grid place-items-center rounded-full bg-white">
+      <button
+        onClick={() => setShowNav(!showNav)}
+        aria-label="navbar-btn-mobile"
+        className="h-16 w-16 my-auto mr-3 md:hidden grid place-items-center rounded-full bg-white shadow-lg"
+      >
         <svg
-          className="text-zinc-800 h-[1.6rem] w-[1.6rem] cursor-pointer"
           width="15"
           height="15"
           viewBox="0 0 15 15"
-          onClick={() => setShowNav(true)}
+          fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className="text-zinc-800 w-[30%] h-[30%]"
         >
           <path
-            d="M14 12.85L1 12.85L1 14.15L14 14.15L14 12.85ZM14 8.85002L1 8.85002L1 10.15L14 10.15L14 8.85002ZM1 4.85003L14 4.85003L14 6.15003L1 6.15002L1 4.85003ZM14 0.850025L1 0.850025L1 2.15002L14 2.15002L14 0.850025Z"
+            d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
             fill="currentColor"
             fillRule="evenodd"
             clipRule="evenodd"
           ></path>
         </svg>
-      </div>
+      </button>
     </div>
   );
 }
