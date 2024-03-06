@@ -29,11 +29,10 @@ function AllMenu() {
 
   return (
     <div className="relative right-0 left-0 mx-auto min-w-[20rem] w-full xl:max-w-[100rem] h-screen z-40 min-h-fit overflow-x-auto lg:overflow-x-hidden">
-      {/* Desktop */}
       <CartPage
         handleDelete={handleDelete}
         dataDonut={donutInCart}
-        styleBtn="fixed hidden lg:block right-10 top-24 w-20 h-20 bg-blue-100 rounded-full z-40"
+        styleBtn="fixed hidden lg:block right-10 top-24 w-20 h-20 border-4 border-zinc-800 bg-white rounded-full z-40"
       />
       <div className="absolute top-0 z-30 hidden lg:block w-full h-full">
         <div className="grid min-h-[85rem] place-items-center bg-gradient-to-br from-purple-400 to-blue-700 overflow-x-hidden">
@@ -198,14 +197,12 @@ function AllMenu() {
           </div>
         </div>
       </div>
-      {/* Mobile And Tablet */}
       <div className="min-h-[250rem] pb-12 lg:hidden w-full bg-gradient-to-b from-purple-400 to-blue-400 overflow-hidden">
         <div className="w-full h-[50%] pt-32 sm:pl-40 flex flex-col space-y-14">
-          {/* mobile cart */}
           <CartPage
             handleDelete={handleDelete}
             dataDonut={donutInCart}
-            styleBtn="fixed bottom-8 right-5 w-20 h-20 bg-blue-100 rounded-full z-40"
+            styleBtn="fixed bottom-8 right-5 w-20 h-20 border-4 border-zinc-800 bg-white rounded-full z-40"
           />
           <div className="relative flex flex-col">
             <h1 className="-top-0 text-[2.1rem] font-font1">
