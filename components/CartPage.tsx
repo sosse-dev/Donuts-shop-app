@@ -32,7 +32,7 @@ function CartPage({
       {!openCart && (
         <button onClick={() => setOpenCart(true)} className={styleBtn}>
           <span className="text-5xl">🛒</span>
-          <p className="absolute -top-3 -right-1 bg-slate-50 py-1 px-3 rounded-full">
+          <p className="absolute -top-3 -right-1 bg-slate-50 py-1 px-3 rounded-full border-[3px] border-zinc-900">
             {lengthData - 1}
           </p>
         </button>
