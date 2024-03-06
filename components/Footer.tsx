@@ -20,7 +20,7 @@ function Footer() {
               <a
                 target="_blank"
                 href="https://www.instagram.com/sosse.dev"
-                title="icon by icons8"
+                title="Instagram by icons8"
                 className="w-12 h-12 bg-white hover:scale-110 rounded-full"
                 aria-label="instagram"
               >
@@ -35,7 +35,7 @@ function Footer() {
               <a
                 target="_blank"
                 href="https://wa.me/62882019600180"
-                title="icon by icons8"
+                title="Whatsapp by icons8"
                 className="w-12 h-12 bg-white hover:scale-110 rounded-full"
                 aria-label="whatsapp"
               >
@@ -50,7 +50,7 @@ function Footer() {
               <a
                 target="_blank"
                 href="https://www.facebook.com/people/Ahmad-Sosse/pfbid02QqMvBwCbprkHDxNH6juf239Xusc4ominF6jaM4E1nQFTVVeL6P4i8jonV39PJPNnl/?locale=id_ID"
-                title="icon by icons8"
+                title="Facebook by icons8"
                 className="w-12 h-12 bg-white hover:scale-110 rounded-full"
                 aria-label="facebook"
               >
@@ -112,7 +112,9 @@ function Footer() {
               >
                 catalyststuff
               </a>
-              <p className="text-left text-zinc-200 pl-2 hover:bg-slate-500">icons8</p>
+              <p className="text-left text-zinc-200 pl-2 hover:bg-slate-500">
+                icons8
+              </p>
             </div>
           </div>
         </div>
