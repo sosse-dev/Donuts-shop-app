@@ -114,13 +114,13 @@ function Navbar() {
       <div className="hidden h-full w-fit md:flex font-thin">
         <Link
           href="/register"
-          className="w-[6rem] h-full grid place-items-center text-xl font-semibold text-white hover:bg-blue-500 cursor-pointer px-3"
+          className="w-[6rem] h-full grid place-items-center text-xl text-white hover:bg-blue-500 cursor-pointer px-3"
         >
           Sign Up
         </Link>
         <Link
           href="/login"
-          className="w-[6rem] h-full grid place-items-center text-xl font-semibold text-white hover:bg-blue-500 cursor-pointer px-3"
+          className="w-[6rem] h-full grid place-items-center text-xl text-white hover:bg-blue-500 cursor-pointer px-3"
         >
           Login
         </Link>
