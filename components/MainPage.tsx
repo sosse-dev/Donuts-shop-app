@@ -20,7 +20,7 @@ function MainPage({ children }: { children: React.ReactNode }) {
                   >
                     <Image
                       src="/no-image.png"
-                      title="icon by icons8"
+                      title="No-image by icons8"
                       width={100}
                       height={100}
                       alt="no-image"
